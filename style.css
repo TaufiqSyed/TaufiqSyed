@@ -1,8 +1,60 @@
 *{
 	padding: 0;
 	margin:0;
+	font-family: 'Shadows Into Light', cursive;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto Mono', monospace;
+}
+
+::selection {
+	background: #eee; /* WebKit/Blink Browsers */
+	color: #111;
+  }
+  ::-moz-selection {
+	background: #eee; /* Gecko Browsers */
+	color: #111;
+  }
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#sticky-note-wrapper{
+	position: fixed;
+	right: 5vh;
+	top: 0;
+	height: 300px;
+	width: 300px;
+}
+
+#sticky-note{
+	height: 300px;
+	width: 300px;
+	transition: display 2s;
+}
+
+#sticky-note-text{
+	color: #000;
+	position: relative;
+	font-family: Shadows Into Light;
+	width: 300px;
+	height: 300px;
+	margin-top: -200px;
+	right: -40px;
+	font-size: 24px;
+	transition: display 2s;
 }
 
 #start-page{
@@ -15,26 +67,22 @@
 	font-style: Roboto Mono;
 }
 
-#password-hint{
+.password-hint{
  color: lime;
 }
 
-#password-prompt{
-	display: inline-block;
+.password-prompt{
+	float: left;
+	width: 106px;
 }
 
-.command-line-cursor{
-	position: relative;
-	margin-left: 1px;
-	top:1px;
-	display: inline-block;
-	height:4px;
-	width:9px;
-	background-color: #fff;
-}
 
-#password{
-	display: inline-block;
+.password{
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 106px;
 	background-color: #111;
-	border: none;
+	/* border: 1px white solid; */
+	border:none;
 }
