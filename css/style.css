@@ -412,15 +412,6 @@ a:hover {
 //--//-->   NAVBAR
 ======================================*/
 
-#slogan {
-  color: #fff;
-  font-style: italic;
-  position: relative;
-  top: 1vh;
-  right: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1.5px dashed #fff;
-}
 
 .navbar-b {
   transition: all .5s ease-in-out;
@@ -566,7 +557,7 @@ a:hover {
 
 .navbar-toggler {
   position: relative;
-  right: 10px;
+  float: right;
 }
 
 .navbar-toggler:focus,
@@ -1048,19 +1039,5 @@ footer .credits a {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #compass-picture {
-    display: block;
-    float: right;
-  }
-  #title-text {
-    float: left;
-    margin-top: 10vh;
-  }
-  #slogan {
-    left: 20px;
   }
 }
