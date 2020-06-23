@@ -716,11 +716,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.about-img img {
-  border: #8400ff 7px dashed;
-  border-radius: 30px;
-}
-
 .about-mf .about-img img {
   margin-left: 10px;
 }
