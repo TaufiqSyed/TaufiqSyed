@@ -33,7 +33,7 @@ h6 {
 
 a {
   color: #fff;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 a:hover {
@@ -714,6 +714,11 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+}
+
+.about-img img {
+  border: #8400ff 7px dashed;
+  border-radius: 30px;
 }
 
 .about-mf .about-img img {
