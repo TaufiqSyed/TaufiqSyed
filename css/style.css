@@ -1,12 +1,5 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*======================================
-//--//-->   STYLES GENERALES
+//--//-->   GENERAL STYLES 
 ======================================*/
 
 *{
@@ -64,7 +57,7 @@ a:hover {
 
 .box-shadow,
 .paralax-mf,
-.service-box,
+.interest-box,
 .work-box,
 .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
@@ -737,41 +730,41 @@ a:hover {
 }
 
 /*======================================
-//--//-->   SERVICES
+//--//-->   INTERESTS
 ======================================*/
 
-.service-box {
+.interest-box {
   background-color: #141414;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
 
-.service-box:hover .ico-circle {
+.interest-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
   background-color: #8400ff;
   box-shadow: 0 0 0 10px #1f1f1f;
 }
 
-.service-box .service-ico {
+.interest-box .interest-ico {
   margin-bottom: 1rem;
   color: #fff;
 }
 
-.service-box .ico-circle {
+.interest-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
 }
 
-.service-box .s-title {
+.interest-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
 }
 
-.service-box .s-description {
+.interest-box .s-description {
   color: #ccc;
 }
 
@@ -854,22 +847,6 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
-}
-
-/*======================================
-//--//-->   TESTIMONIALS
-======================================*/
-
-/*======================================
-//--//-->   CONTACT
-======================================*/
-
-.footer-paralax {
-  padding: 4rem 0 0 0;
-}
-
-.contact-mf {
-  margin-top: 4rem;
 }
 
 /*======================================
