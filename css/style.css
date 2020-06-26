@@ -851,27 +851,21 @@ a:hover {
 
 
 #resume-wrapper {
-  margin: 20px 0 100px 0;
   width: 100%;
   text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 #full-resume {
   height: 200px;
   width: 200px;
   font-size: 24px;
-  padding: 20px 70px;
+  padding: 20px 20px;
   transition: all 0.35s ease;
   font-weight: bold;
   border-radius: 2px;
-}
-
-
-/*======================================
-//--//-->   ACADEMICS
-======================================*/
-
-#academics {
+  margin: 0;
 }
 
 /*======================================
@@ -952,12 +946,46 @@ footer .credits a {
   border-radius: .3rem;
 }
 
-@media (min-width: 577px) {
+#wrapper-quote {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 256px;
+}
+
+#steve-jobs-quote-wrapper {
+  position: absolute;
+  height: 256px;
+  width: 100%;
+  color: #141414;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#steve-jobs-text {
+  position: relative;
+  top: -180px
+}
+
+
+#br-quote {
+  display: none;
+}
+
+@media (min-width: 576px) {
   .counter-box {
     margin-bottom: 1.8rem;
   }
-
+  #first-counter-child {
+    position: relative;
+    top: 23.5px;
+  }
+  /* #steve-jobs-quote {
+    top: 60px;
+    left: 10px;
+  } */
 }
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -973,11 +1001,14 @@ footer .credits a {
     margin-top: 3rem;
     padding-left: 0rem;
   }
+  #first-counter-child {
+    position: relative;
+    top: 0;
+  }
+
 }
 
 @media (min-width: 768px) {
-
-
 
   .box-shadow-full {
     padding: 3rem;
@@ -1026,16 +1057,44 @@ footer .credits a {
 
 }
 
+@media (min-width: 790px) {
+  /* #steve-jobs-quote {
+    top: 80px;
+    left: 20px;
+  } */
+  #br-quote {
+    display: block;
+  }
+}
+
+@media (min-width: 880px) {
+  /* #steve-jobs-quote {
+    left: 80px;
+  } */
+}
+
 @media (min-width: 992px) {
   .testimonial-box .description {
     padding: 0 8rem;
   }
+  /* #steve-jobs-quote {
+    left: 150px;
+  } */
+}
+
+@media (min-width: 1100px) {
+  /* #steve-jobs-quote {
+    left: 200px;
+  } */
 }
 
 @media (min-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
   }
+  /* #steve-jobs-quote {
+    left: 250px;
+  } */
 }
 
 @media (max-width: 768px) {
