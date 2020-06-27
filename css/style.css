@@ -862,8 +862,8 @@ a:hover {
   width: 200px;
   font-size: 24px;
   padding: 20px 20px;
-  transition: all 0.35s ease;
-  font-weight: bold;
+  transition: all 0.2s ease;
+  /* font-weight: bold; */
   border-radius: 2px;
   margin: 0;
 }
@@ -959,7 +959,6 @@ footer .credits a {
   width: 100%;
   color: #141414;
   font-size: 30px;
-  font-weight: bold;
 }
 
 #steve-jobs-text {
